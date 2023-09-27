@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+    /*background-image: url(../img/fond3.jpg);*/
+    animation: movimiento 150s;
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/fond3.jpg);
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+.migas{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*ICONO WHATSAPP*/
+.appWhatsapp{
+	position: fixed;
+	right: 24px;
+	bottom: 25px;
+	width: 60px;
+	z-index: 1000;
+	
+	
+}
+.appWhatsapp img{
+	width: 100%;
+	height: auto;
+}
+/**/
+
+
+
+
+/*SERVICIOS*/
+.fisicas{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.academicas{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.servicios{
+    color: white;
+}
+
+
+/**/
+
+
+
+
+
+.VidInicio{
+    width: 100%;
+}
+
+.VidFin{
+    
+    width: 70%;
+}
+
+
+.ImgInicio{
+    /*background-color: rgb(86, 42, 190);*/
+    opacity: 0.95;
+    width: 89%;
+}
+
+h5{
+    color: white;
+}
+
+h1{
+    color: yellow;
+}
+
+h2{
+    color: yellow;
+}
+
+
+
+.textoCarusel{
+    background-color: black;
+}
+
+
+
+
+.img-fluid{
+    padding: 15px;
+}
+
+.img-fluid:hover{
+    border-radius: 15%;
+    transition:all .5s ease-in-out;
+}
+
+.capacitacionInicio{
+    text-align: center;
+    padding: 30px;
+    width: 89%;
+}
+
+#carouselExampleControls{
+    padding: 0 50px 50px 50px;
+}
+
+
+.capacitacionFin{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.NosotrosInicio{
+    background-color: black;
+    opacity: 1;
+    color: white;
+}
+
+/*Resolucion mapa inicio*/
+.mapa{
+    width: 500px;
+    height: 500px;
+
+    
+}
+
+/*Imagen del apartado "nostros"*/
+.ImgNosotros{
+    padding: 0px 0px 10px;
+    width: 80%;
+}
+
+@media screen and (max-width: 766px){
+	#fb-root{
+		display: none;
+	}
+}
