@@ -60,7 +60,7 @@
 								Secciones
 							</h6>
 							<p>
-								<a href="index.php" class="text-reset">Inicio</a>
+								<a href="index.html" class="text-reset">Inicio</a>
 							</p>
 							<p>
 								<a href="nosotros.php" class="text-reset">Nosotros</a>
